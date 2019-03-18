@@ -109,7 +109,7 @@ def match_date(string):
 
 
 def find_all_external_references(bill):
-    pattern = r'ustaw(?:a|y|ie|ę|ą|o||om|ami|ach)((?:.){1,200})(\([^()]*?(?:poz)[^()]*\))'
+    pattern = r'ustaw(?:a|y|ie|ę|ą|o||om|ami|ach)((?:.){1,200})(\([^()]*?(?:poz(?:|.| ))[^()]*\))'
     bills = regex.findall(pattern, bill, regex.IGNORECASE | regex.MULTILINE | regex.DOTALL)
     result = []
     for bill in bills:
@@ -130,6 +130,7 @@ directory_path = os.path.join("..", "ustawy")
 
 for root, dirs, files in os.walk(directory_path):
     result = []
+    art_to_title_dict = {}
     for filename in files:
         with open(os.path.join(directory_path, filename), 'r', encoding="utf8") as fin:
             print("Bill name: " + filename + "\n\n")
@@ -139,7 +140,11 @@ for root, dirs, files in os.walk(directory_path):
 
     reference_dict = Counter()
     for ref in result:
-        reference_dict[build_reference_name(ref)] += 1
+        name = build_reference_name(ref)
+        if name:
+            art_to_title_dict[name] = ref.title
+        reference_dict[name] += 1
     with open(os.path.join("..", "output", "exercise1_1"), 'w+', encoding="utf8") as fout:
         for ref, occurrences in reference_dict.most_common():
-            fout.write(ref + " Count: " + str(occurrences) + "\n")
+            trimmed_title = art_to_title_dict[ref].replace("\n", " ")
+            fout.write(ref + " Count: " + str(occurrences) + " Title: " + trimmed_title + "\n")

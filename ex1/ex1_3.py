@@ -20,3 +20,6 @@ for root, dirs, files in os.walk(directory_path):
             counter += occurrences
     print("Number of occurrences:")
     print(counter)
+    with open(os.path.join("..", "output", "exercise1_3"), 'w+', encoding="utf8") as fout:
+            fout.write("Number of occurrences:\n")
+            fout.write(str(counter))

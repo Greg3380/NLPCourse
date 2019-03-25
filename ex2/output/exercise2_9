@@ -1,2 +1,11 @@
 Most relevant documents for phrase 'konstytucja' ':
-b'{"took":5,"timed_out":false,"_shards":{"total":1,"successful":1,"skipped":0,"failed":0},"hits":{"total":45,"max_score":6.8731265,"hits":[{"_index":"nlp-ex2","_type":"bills","_id":"pV68sGkBdnxMPdRrL65R","_score":6.8731265,"_source":{"billTitle":"1997_629.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"pF68sGkBdnxMPdRrbq9s","_score":6.668492,"_source":{"billTitle":"2000_443.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"o168sGkBdnxMPdRrLq7R","_score":6.6380353,"_source":{"billTitle":"1997_604.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"Al68sGkBdnxMPdRrC65J","_score":6.632588,"_source":{"billTitle":"1996_350.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"p168sGkBdnxMPdRrL66I","_score":6.257027,"_source":{"billTitle":"1997_642.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"P168sGkBdnxMPdRrk7AE","_score":6.064086,"_source":{"billTitle":"2001_23.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"9V68sGkBdnxMPdRrCa2s","_score":5.934174,"_source":{"billTitle":"1996_199.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"R168sGkBdnxMPdRrVa9_","_score":5.855512,"_source":{"billTitle":"1999_688.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"tV68sGkBdnxMPdRrMq6l","_score":5.472211,"_source":{"billTitle":"1997_681.txt"}},{"_index":"nlp-ex2","_type":"bills","_id":"6F68sGkBdnxMPdRrfK89","_score":5.472211,"_source":{"billTitle":"2001_1082.txt"}}]}}'
+Bill title: 1997_629.txt , Score: 6.8731265
+Bill title: 2000_443.txt , Score: 6.668492
+Bill title: 1997_604.txt , Score: 6.6380353
+Bill title: 1996_350.txt , Score: 6.632588
+Bill title: 1997_642.txt , Score: 6.257027
+Bill title: 2001_23.txt , Score: 6.064086
+Bill title: 1996_199.txt , Score: 5.934174
+Bill title: 1999_688.txt , Score: 5.855512
+Bill title: 1997_681.txt , Score: 5.472211
+Bill title: 2001_1082.txt , Score: 5.472211

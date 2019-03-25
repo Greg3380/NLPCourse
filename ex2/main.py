@@ -11,6 +11,7 @@ COUNT_QUERY_URL = INDEX_DATA_URL + r'/_count'
 SEARCH_QUERY_URL = INDEX_DATA_URL + r'/_search'
 HEADERS = {'content-type': 'application/json'}
 
+
 def get_json_as_string(working_dir, file_name):
     return __read_json_file_to_string(join(working_dir, "json", file_name))
 
@@ -56,10 +57,15 @@ def search_for_phrase_with_additional_words():
 def search_for_most_relevant_docs():
     data = get_json_as_string(getcwd(), "search_for_most_relevant_documents.json")
     response = requests.get(url=SEARCH_QUERY_URL, headers=HEADERS, data=data.encode('utf-8'))
+    response_data = response.content.decode('utf-8')
+    result = loads(response_data)["hits"]["hits"]
+    score_and_bill_titles = []
+    for entry in result:
+        score_and_bill_titles.append((entry["_score"], entry["_source"]["billTitle"]))
     with open(os.path.join("output", "exercise2_9"), 'w+', encoding="utf8") as fout:
         fout.write("Most relevant documents for phrase 'konstytucja' ':\n")
-        fout.write(str(response.content))
-
+        for entry in score_and_bill_titles:
+            fout.write("Bill title: " + entry[1] + " , Score: " + str(entry[0]) + "\n")
 
 
 def upload_bills(directory_path):
@@ -87,9 +93,16 @@ def get_count_from_response(response) -> int:
 def search_for_most_relevant_docs_highlights():
     data = get_json_as_string(getcwd(), "most_relevant_docs_highlights.json")
     response = requests.get(url=SEARCH_QUERY_URL, headers=HEADERS, data=data.encode('utf-8'))
+    response_data = response.content.decode('utf-8')
+    result = loads(response_data)["hits"]["hits"]
+    fragmenets_and_bill_titles = []
+    for entry in result:
+        fragmenets_and_bill_titles.append((entry["highlight"]["textContent"], entry["_source"]["billTitle"]))
+
     with open(os.path.join("output", "exercise2_10"), 'w+', encoding="utf8") as fout:
         fout.write("Fragments of bills with phrase 'konstytucja' ':\n")
-        fout.write(str(response.content))
+        for entry in fragmenets_and_bill_titles:
+            fout.write("Bill title: " + entry[1] + " , Fragments:  \n" + "\n".join(entry[0]) + "\n\n")
 
 
 def main():
@@ -101,7 +114,6 @@ def main():
     search_for_phrase_with_additional_words()
     search_for_most_relevant_docs()
     search_for_most_relevant_docs_highlights()
-
 
 
 if __name__ == '__main__':

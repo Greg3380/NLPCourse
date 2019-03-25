@@ -1,0 +1,12 @@
+{
+  "query": {
+    "multi_match": {
+      "query": "kodeks postępowania cywilnego",
+      "fields": [
+        "textContent"
+      ],
+      "type": "phrase",
+      "slop": 0
+    }
+  }
+}

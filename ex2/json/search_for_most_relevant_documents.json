@@ -1,0 +1,12 @@
+{
+  "_source": "billTitle",
+  "size": 10,
+ "query": {
+    "match" : {
+      "textContent": {
+        "query": "konstytucja"
+      }
+    }
+  }
+
+}

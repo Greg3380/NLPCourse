@@ -1,0 +1,12 @@
+{
+  "query": {
+    "multi_match": {
+      "query": "wchodzi w życie",
+      "fields": [
+        "textContent"
+      ],
+      "type": "phrase",
+      "slop": 2
+    }
+  }
+}

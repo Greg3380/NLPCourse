@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "analyzer": {
+        "default": {
+          "tokenizer": "standard",
+          "filter": ["synonym", "morfologik_stem","lowercase"]
+        }
+      },
+      "filter" : {
+        "synonym": {
+          "type": "synonym",
+          "synonyms": [
+            "kpk => kodeks postępowania karnego",
+            "kpc => kodeks postępowania cywilnego",
+            "kk => kodeks karny",
+            "kc => kodeks cywilny"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "bills": {
+      "properties": {
+        "textContent": {
+            "type": "text"
+          },
+        "billTitle": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}

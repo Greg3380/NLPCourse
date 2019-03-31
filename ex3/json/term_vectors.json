@@ -1,0 +1,8 @@
+{
+  "fields" : ["textContent"],
+  "offsets" : true,
+  "payloads" : true,
+  "positions" : true,
+  "term_statistics" : true,
+  "field_statistics" : true
+}

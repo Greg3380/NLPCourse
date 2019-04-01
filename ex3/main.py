@@ -142,8 +142,9 @@ def find_corrections_using_Levenshtein_distance(not_in_dictionary, results,
         for candidate, score in results:
             if length_difference_is_not_greater_than_distance(word, candidate, distance) \
                     and Levenshtein_distance(word, candidate) <= distance and word != candidate:
-                best_match = candidate
-                best_score = score
+                if best_score < score:
+                    best_match = candidate
+                    best_score = score
         words_with_corrections[word] = (best_match, best_score)
     return words_with_corrections
 
@@ -155,7 +156,7 @@ def length_difference_is_not_greater_than_distance(word, candidate, distance):
 def Levenshtein_distance(word: str, candidate: str) -> int:
     distances = [[0 for i in range(len(candidate) + 1)] for j in range(len(word) + 1)]
     for i in range(0, len(word) + 1):
-        distances[i][0] = 1
+        distances[i][0] = i
     for j in range(0, len(candidate) + 1):
         distances[0][j] = j
     for j in range(1, len(candidate) + 1):

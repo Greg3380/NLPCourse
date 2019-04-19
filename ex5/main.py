@@ -17,16 +17,17 @@ HEADERS = {'content-type': 'text/plain', 'charset': 'utf-8'}
 def main():
     directory_path = os.path.join("..", "ustawy")
     files = get_files_to_be_processed(directory_path)
-    tokens = []
     bigram_frequency_list = Counter()
     for file in files:
         words = []
+        tokens = []
         result_tokens = extract_and_upload_data(file, HOST, HEADERS)
         for token in result_tokens:
             split = token.split(":")
             words.append(split[0])
             tokens.append(token)
         count_double_words_in_content(tokens, bigram_frequency_list)
+
     llr_list = create_llr_list(bigram_frequency_list)
     with io.open(os.path.join("output", "exercise5_5"), 'w+') as fout:
         fout.write(u'Top 100 llr bigrams:\n')

@@ -1,0 +1,11 @@
+Queried word: szkoda
+Word type: n
+Results:
+
+Domain: zdarz => zdarzenia
+Definition: 
+Synonyms: strata, utrata, szkoda, uszczerbek
+
+Domain: msc => miejsca i umiejscowienie
+Definition: brak danych
+Synonyms: szkoda

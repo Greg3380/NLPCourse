@@ -1,0 +1,1 @@
+Leacock-Chodorow similiarity measure between szkoda_2 and wypadek_1 is 3.120895416507997. (distance: 3, max_distance: 34)

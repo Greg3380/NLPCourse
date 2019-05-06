@@ -1,0 +1,24 @@
+Word ('Sąd Najwyższy', 'kpc', 'konstytucja') cannot be found
+
+5 most similar words to result of operation: "pasażer - mężczyzna + kobieta" are:
+pasażer::noun - similarity: 0.9536
+podróżny::noun - similarity: 0.8416
+współpasażer::noun - similarity: 0.792
+podróżujący::noun - similarity: 0.7551
+kierowca::noun - similarity: 0.7447
+bagażowy::noun - similarity: 0.7316
+turysta::noun - similarity: 0.731
+podróżny::adj - similarity: 0.7294
+stewardesa::noun - similarity: 0.7254
+pasażerski::adj - similarity: 0.7142
+5 most similar words to result of operation: "samochód - droga + rzeka" are:
+motorówka::noun - similarity: 0.744
+jezioro::noun - similarity: 0.7345
+Łódź::noun - similarity: 0.7255
+rzeka::noun - similarity: 0.7249
+ne#Helensburgha::noun - similarity: 0.7246
+ne#East_River::noun - similarity: 0.7199
+ne#Hudsonu::noun - similarity: 0.7094
+ne#Viroma::noun - similarity: 0.7087
+łódka::noun - similarity: 0.7058
+dżip::noun - similarity: 0.705

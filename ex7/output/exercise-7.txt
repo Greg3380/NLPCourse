@@ -1,0 +1,94 @@
+Word Sąd Najwyższy cannot be found
+
+Word Trybunał Konstytucyjny cannot be found
+
+3 most similar words to word kodeks cywilny are:
+ne#Kodeksu_cywilnego::noun - similarity: 0.955
+ne#Kodeks_Cywilny::noun - similarity: 0.8858
+ne#Kodeksie_cywilnym::noun - similarity: 0.8602
+ne#Kodeksie_Cywilnym::noun - similarity: 0.8508
+ne#kodeksu_cywilnego::noun - similarity: 0.8474
+kodeks_handlowy::noun - similarity: 0.8372
+kodeks_pracy::noun - similarity: 0.8372
+ne#Kodeksu_Cywilnego::noun - similarity: 0.8325
+ne#Kodeksu_postępowania_cywilnego::noun - similarity: 0.8185
+ne#Kodeks_cywilny::noun - similarity: 0.8184
+3 most similar words to word kpk are:
+ne#Kodeksu_postępowania_karnego::noun - similarity: 0.8661
+kpk::adj - similarity: 0.8617
+kpc::noun - similarity: 0.8537
+kk::noun - similarity: 0.8312
+ppsa::noun - similarity: 0.8294
+ne#KPC::noun - similarity: 0.8082
+ne#Kodeksu_postępowania_w_sprawach_o_wykroczenia::noun - similarity: 0.8027
+ne#Kpa::noun - similarity: 0.8
+kpow::noun - similarity: 0.7975
+1kpk::adj - similarity: 0.7968
+Word sąd rejonowy cannot be found
+
+3 most similar words to word szkoda are:
+wyrządzić::verb - similarity: 0.7564
+Krzywda::noun - similarity: 0.7516
+strata::noun - similarity: 0.7275
+nieszczęście::noun - similarity: 0.7268
+obawiać_się::verb - similarity: 0.7152
+pożytek::noun - similarity: 0.7029
+żałować::verb - similarity: 0.7016
+korzyść::noun - similarity: 0.6929
+skutek::noun - similarity: 0.6911
+przypuszczać::verb - similarity: 0.6901
+3 most similar words to word wypadek are:
+przypadek::noun - similarity: 0.8552
+okoliczność::noun - similarity: 0.8122
+skutek::noun - similarity: 0.7716
+sytuacja::noun - similarity: 0.7613
+zdarzenie::noun - similarity: 0.7389
+zapewne::qub - similarity: 0.7357
+przyczyna::noun - similarity: 0.7272
+wydarzenie::noun - similarity: 0.7242
+prawdopodobnie::adv - similarity: 0.7228
+jednakże::qub - similarity: 0.7212
+3 most similar words to word kolizja are:
+kolizja_drogowa::noun - similarity: 0.8072
+kolizj::noun - similarity: 0.7978
+wypadek_drogowy::noun - similarity: 0.7863
+zderzenie::noun - similarity: 0.7812
+zderzenie_czołowe::noun - similarity: 0.7509
+kraksa::noun - similarity: 0.7375
+stłuczka::noun - similarity: 0.7362
+drogowyc::noun - similarity: 0.7357
+zdarzać::noun - similarity: 0.7282
+awaria::noun - similarity: 0.7276
+3 most similar words to word szkoda majątkowa are:
+wyrządzić::noun - similarity: 0.838
+damnum::noun - similarity: 0.7641
+wyrządzo::noun - similarity: 0.7531
+delikt::noun - similarity: 0.7494
+zagarnięcie_mienia::noun - similarity: 0.7462
+uszczupleń::noun - similarity: 0.7422
+odszkodowawczy::adj - similarity: 0.7415
+odpowiedzialność_odszkodowawcza::noun - similarity: 0.7318
+niemajątkowy::adj - similarity: 0.7278
+emergens::noun - similarity: 0.7269
+3 most similar words to word nieszczęście are:
+niebezpieczeństwo::noun - similarity: 0.7716
+klęska::noun - similarity: 0.7639
+zguba::noun - similarity: 0.7612
+zgryzota::noun - similarity: 0.7591
+Krzywda::noun - similarity: 0.7577
+strapienie::noun - similarity: 0.757
+niedola::noun - similarity: 0.7512
+los::noun - similarity: 0.7468
+nieszczęśliwy::adj - similarity: 0.743
+utrapienie::noun - similarity: 0.7418
+3 most similar words to word rozwód are:
+małżeństwo::noun - similarity: 0.823
+rozwodowy::adj - similarity: 0.8101
+rozwiedziony::adj - similarity: 0.7854
+rozwieść_się::verb - similarity: 0.7775
+rozwieść::verb - similarity: 0.7737
+małżeńśtwa::noun - similarity: 0.7711
+rozwiedzeni::noun - similarity: 0.7503
+konkubinat::noun - similarity: 0.7491
+rozwódka::noun - similarity: 0.7407
+ne#Katarzyną_Aragońską::noun - similarity: 0.7383

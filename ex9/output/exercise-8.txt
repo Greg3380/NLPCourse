@@ -1,0 +1,100 @@
+nam_org:
+
+Skarbu Pañstwa	119
+Unii Europejskiej	87
+Minister Obrony Narodowej	76
+Pañstwowej Stra¿y Po¿arnej	66
+Inspekcji Weterynaryjnej	49
+Minister Finansów	46
+Minister Zdrowia i Opieki Spo³ecznej	41
+Funduszu Pracy	40
+Prezes Rady Ministrów	38
+Minister Sprawiedliwoœci	37
+nam_pro:
+
+Dz U z	91
+Dz U Nr	65
+Ordynacja podatkowa	17
+ustawy z dnia o Trójstronnej	14
+Dz Urz	11
+Kodeksu postêpowania administracyjnego	10
+Art 3 1	10
+Art 33	10
+Ordynacja podatkowa DzU Nr	9
+ustawy z dnia 27 sierpnia 2009 r o finansach publicznych	9
+nam_loc:
+
+Rzeczypospolitej Polskiej	212
+Rzeczpospolit¹ Polsk¹	22
+Rzeczpospolita Polska	22
+Polsce	20
+Warszawie	15
+Polski	14
+Warszawy	12
+USA	10
+Warszawa	9
+Art	9
+nam_liv:
+
+Dz U	123
+Art	70
+G³ówny Inspektor	25
+Leœnictwa	20
+G³ównego Inspektora	20
+Wojewoda	18
+Montrealskiego	15
+S T A W A	12
+Nadzoru Budowlanego	12
+Marek Kuchciñski	8
+nam_fac:
+
+Medal Wojska Polskiego	8
+REGON	4
+Biblioteka Narodowa	2
+Spraw Spo³ecznoGospodarczych 2	2
+Lasów Pañstwowych	2
+Dróg Krajowych	2
+Dzia³ I Przepisy	1
+Dniem Ofiar Przestêpstw Art	1
+S¹du Najwy¿szego 4	1
+Rady Koœcio³a Art 2	1
+nam_oth:
+
+z³	178
+z³otych	10
+EURO	8
+dolarów	7
+Minister Edukacji Narodowej	6
+DNA	5
+NIP	4
+PESEL	4
+Profilaktyka	1
+z³ e	1
+nam_eve:
+
+Monitorze S¹dowym	2
+Mistrzostw Europy w Pi³ce No¿nej UEFA EURO	1
+Mistrzostw Europy w Pi³ce No¿nej UEFA	1
+EURO 2012	1
+igrzyskach olimpijskich igrzyskach paraolimpijskich igrzyskach g³uchych mistrzostwach œwiata	1
+Monitor Polski	1
+przypadkach 1	1
+Europejskim Obszarze Gospodarczym	1
+s³u¿bowymi 2 Opiekê duszpastersk¹	1
+zdrowotnej 2 Œrodki	1
+nam_adj:
+
+polski	55
+Wojewódzki	26
+Wojewódzkiego	5
+Polskiej	4
+europejskich	4
+polskim	3
+polskiego	3
+wojewódzkiego	2
+polsk¹	2
+polskie	2
+nam_num:
+
+13	1
+5	1

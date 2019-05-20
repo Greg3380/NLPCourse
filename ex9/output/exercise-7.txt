@@ -1,0 +1,50 @@
+Rzeczypospolitej Polskiej	212	nam_loc_gpe_country
+z³	178	nam_oth_currency
+Dz U	123	nam_liv_person
+Skarbu Pañstwa	119	nam_org_institution
+Dz U z	91	nam_pro_media_periodic
+Unii Europejskiej	86	nam_org_organization
+Minister Obrony Narodowej	76	nam_org_institution
+Art	70	nam_liv_person
+Dz U Nr	65	nam_pro_media_periodic
+Pañstwowej Stra¿y Po¿arnej	56	nam_org_organization
+polski	55	nam_adj_country
+Inspekcji Weterynaryjnej	49	nam_org_institution
+Minister Zdrowia i Opieki Spo³ecznej	41	nam_org_institution
+Minister Finansów	40	nam_org_institution
+Prezes Rady Ministrów	38	nam_org_institution
+Funduszu Pracy	38	nam_org_institution
+Minister Sprawiedliwoœci	37	nam_org_institution
+Zak³adu Ubezpieczeñ Spo³ecznych	37	nam_org_institution
+Komisji do Spraw Spo³ecznoGospodarczych	36	nam_org_institution
+Inspekcji Sanitarnej	35	nam_org_institution
+Zwi¹zku Kas	33	nam_org_organization
+Ministrem Obrony Narodowej	32	nam_org_institution
+Polskiego Zwi¹zku £owieckiego	31	nam_org_organization
+Inspekcji Handlowej	29	nam_org_institution
+Skarb Pañstwa	27	nam_org_institution
+Wojewódzki	26	nam_adj_country
+G³ówny Inspektor Sanitarny	25	nam_org_institution
+G³ówny Inspektor	25	nam_liv_person
+Minister Ochrony Œrodowiska Zasobów Naturalnych	24	nam_org_institution
+Rada Ministrów	22	nam_org_institution
+Trójstronnej Komisji do Spraw Spo³ecznoGospodarczych	22	nam_org_institution
+Rzeczpospolit¹ Polsk¹	22	nam_loc_gpe_country
+Rzeczpospolita Polska	22	nam_loc_gpe_country
+Rady Ministrów	20	nam_org_institution
+Polsce	20	nam_loc_gpe_country
+Leœnictwa	20	nam_liv_person
+G³ównego Inspektora	20	nam_liv_person
+Koœcio³a	18	nam_org_organization
+Ministra Finansów	17	nam_org_institution
+Senat	17	nam_org_institution
+MARSZA£EK SEJMU	17	nam_org_institution
+Prezesa Rady Ministrów	17	nam_org_institution
+Ordynacja podatkowa	17	nam_pro_title_document
+Wojewoda	17	nam_liv_person
+Ministra Obrony Narodowej	16	nam_org_institution
+Dzienniku Urzêdowym Rzeczypospolitej Polskiej Monitor Polski	16	nam_org_institution
+Sztabu Generalnego Wojska Polskiego	15	nam_org_institution
+Montrealskiego	15	nam_liv_person
+Warszawie	15	nam_loc_gpe_city
+Senatu	14	nam_org_institution

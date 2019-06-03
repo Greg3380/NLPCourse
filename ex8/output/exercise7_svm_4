@@ -1,0 +1,9 @@
+Classification results for variant:	4
+              precision    recall  f1-score   support
+
+     amended       0.59      0.45      0.51       119
+ not_amended       0.55      0.68      0.61       117
+
+   micro avg       0.57      0.57      0.57       236
+   macro avg       0.57      0.57      0.56       236
+weighted avg       0.57      0.57      0.56       236
